@@ -1,0 +1,41 @@
+# All colors must be in the form of '#rrggbb' or '#rgb'.
+# You cannot use color names.
+
+log-view:
+  nickname-format: '%n: '
+  scroller-highlight-color: '#999'
+input-text:
+  background-color: '#000'
+  color: '#ccc'
+  selected:
+    background-color: '#333'
+member-list:
+  color: '#777'
+  background-color: '#000'
+  operator:
+    color: '#ccc'
+  selected:
+    color: '#333'
+server-tree:
+  background-color: '#000'
+  highlight:
+    color: '#989D8B'
+  newtalk:
+    color: '#62C586'
+  unread:
+    color: '#497ACC'
+  normal:
+    active:
+      color: '#777'
+    inactive:
+      color: '#333'
+  selected:
+    active:
+      color: '#ccc'
+    inactive:
+      color: '#777'
+    background:
+      top-line-color: '#000'
+      bottom-line-color: '#000'
+      top-color: '#000'
+      bottom-color: '#000'
