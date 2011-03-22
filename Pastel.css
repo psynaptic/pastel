@@ -39,7 +39,12 @@ a {
   content: "• ";
   white-space: nowrap;
 }
-.line[highlight=true] {}
+.line[highlight=true] {
+  background-color: #222;
+}
+.line[highlight=true] .message[type=privmsg] {
+  color: #fff;
+}
 
 .highlight {
   color: #6593D7;
